@@ -100,10 +100,10 @@ private extension CountdownsTableViewController {
             return (hours, "hours left")
         } else if timeDifference >= 60 { // Minutes
             let minutes = String(timeDifference / 60)
-            return (minutes, "minutes left")
+            return (minutes, "min. left")
         } else if timeDifference > 0 { // Seconds
             let seconds = String(timeDifference)
-            return (seconds, "seconds left")
+            return (seconds, "sec. left")
         } else {
             return ("V", "done!")
         }
