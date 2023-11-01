@@ -15,6 +15,7 @@
 		516D11272AF1A24700F23A38 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D11262AF1A24700F23A38 /* Countdown.swift */; };
 		516D11292AF1A66000F23A38 /* DateCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D11282AF1A66000F23A38 /* DateCreator.swift */; };
 		516D112B2AF1A9FE00F23A38 /* CountdownTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D112A2AF1A9FE00F23A38 /* CountdownTableViewCell.swift */; };
+		516D112D2AF2A27400F23A38 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516D112C2AF2A27400F23A38 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		516D11262AF1A24700F23A38 /* Countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
 		516D11282AF1A66000F23A38 /* DateCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCreator.swift; sourceTree = "<group>"; };
 		516D112A2AF1A9FE00F23A38 /* CountdownTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTableViewCell.swift; sourceTree = "<group>"; };
+		516D112C2AF2A27400F23A38 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				516D11162AF1A18900F23A38 /* CountdownsTableViewController.swift */,
 				516D112A2AF1A9FE00F23A38 /* CountdownTableViewCell.swift */,
 				516D11262AF1A24700F23A38 /* Countdown.swift */,
+				516D112C2AF2A27400F23A38 /* Theme.swift */,
 				516D11282AF1A66000F23A38 /* DateCreator.swift */,
 				516D111B2AF1A18A00F23A38 /* Assets.xcassets */,
 				516D111D2AF1A18A00F23A38 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				516D11172AF1A18900F23A38 /* CountdownsTableViewController.swift in Sources */,
 				516D11132AF1A18900F23A38 /* AppDelegate.swift in Sources */,
+				516D112D2AF2A27400F23A38 /* Theme.swift in Sources */,
 				516D11152AF1A18900F23A38 /* SceneDelegate.swift in Sources */,
 				516D112B2AF1A9FE00F23A38 /* CountdownTableViewCell.swift in Sources */,
 				516D11272AF1A24700F23A38 /* Countdown.swift in Sources */,
