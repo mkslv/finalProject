@@ -5,7 +5,7 @@
 //  Created by Max Kiselyov on 10/31/23.
 //
 
-import UIKit
+import Foundation
 
 struct Countdown {
     let id = UUID()
@@ -13,7 +13,8 @@ struct Countdown {
     var emoji: Character
     var dateTime: Date
     var isArchived: Bool = false
-    var color: UIColor
+    var color: String
+    var note: String = ""
         
     enum Repeat: String {
         case off
