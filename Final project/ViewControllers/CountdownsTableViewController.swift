@@ -23,6 +23,7 @@ final class CountdownsTableViewController: UITableViewController {
         super.viewDidLoad()
         tableView.register(CountdownTableViewCell.self, forCellReuseIdentifier: identifire)
         
+        
         setupTitle()
         setupNavigationBar()
     }
@@ -38,6 +39,10 @@ final class CountdownsTableViewController: UITableViewController {
         
     }
 
+    @objc
+    func infoButtonTapped() {
+        
+    }
 }
 
 // MARK: - Navigation Item
@@ -52,9 +57,12 @@ private extension CountdownsTableViewController {
         let sortButton = UIBarButtonItem(title: "Sort", style: .plain, target: self, action: #selector(sortButtonTapped))
         navigationItem.leftBarButtonItem = sortButton
         
+        // i button
+        let infoButton = UIBarButtonItem(image: UIImage(systemName: "info.circle"), style: .plain, target: self, action: #selector(infoButtonTapped))
+
         // add
         let addButtion = UIBarButtonItem(image: UIImage(systemName: "plus.circle"), style: .plain, target: self, action: #selector(plusButtonTapped))
-        navigationItem.rightBarButtonItem = addButtion
+        navigationItem.rightBarButtonItems = [addButtion, infoButton]
         
     }
 }
@@ -76,13 +84,17 @@ extension CountdownsTableViewController {
         cell.dateLabel.text = formatDate(data.dateTime)
         cell.remainTimeLabel.text = timeDifference(from: data.dateTime).0
         cell.remainTimeUnitsLabel.text = timeDifference(from: data.dateTime).1
-        cell.backgroundColor = data.color
+        cell.backgroundColor = UIColor(named: data.color)
         return cell
     }
     
     // высота ячейкт
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         80
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // переход на подробный экран
     }
 }
 
@@ -117,3 +129,4 @@ private extension CountdownsTableViewController {
         return dateFormatter.string(from: dateTime)
     }
 }
+
