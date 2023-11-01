@@ -64,16 +64,48 @@
 			children = (
 				516D11122AF1A18900F23A38 /* AppDelegate.swift */,
 				516D11142AF1A18900F23A38 /* SceneDelegate.swift */,
-				516D11162AF1A18900F23A38 /* CountdownsTableViewController.swift */,
-				516D112A2AF1A9FE00F23A38 /* CountdownTableViewCell.swift */,
-				516D11262AF1A24700F23A38 /* Countdown.swift */,
-				516D112C2AF2A27400F23A38 /* Theme.swift */,
-				516D11282AF1A66000F23A38 /* DateCreator.swift */,
+				516D112E2AF2A8A700F23A38 /* ViewControllers */,
+				516D11312AF2A8E300F23A38 /* CustomElements */,
+				516D112F2AF2A8CC00F23A38 /* Model */,
+				516D11302AF2A8D900F23A38 /* Services */,
 				516D111B2AF1A18A00F23A38 /* Assets.xcassets */,
 				516D111D2AF1A18A00F23A38 /* LaunchScreen.storyboard */,
 				516D11202AF1A18A00F23A38 /* Info.plist */,
 			);
 			path = "Final project";
+			sourceTree = "<group>";
+		};
+		516D112E2AF2A8A700F23A38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				516D11162AF1A18900F23A38 /* CountdownsTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		516D112F2AF2A8CC00F23A38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				516D11262AF1A24700F23A38 /* Countdown.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		516D11302AF2A8D900F23A38 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				516D112C2AF2A27400F23A38 /* Theme.swift */,
+				516D11282AF1A66000F23A38 /* DateCreator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		516D11312AF2A8E300F23A38 /* CustomElements */ = {
+			isa = PBXGroup;
+			children = (
+				516D112A2AF1A9FE00F23A38 /* CountdownTableViewCell.swift */,
+			);
+			path = CustomElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
